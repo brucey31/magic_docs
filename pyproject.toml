@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "magic-docs"
+version = "0.1.0"
+description = "A POC to show how we can automate documentation within our gitflow"
+authors = ["Bruce Pannaman <bruce@9fin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+diagrams = "^0.23.4"
+pydot = "^2.0.0"
+graphviz = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
