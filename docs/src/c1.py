@@ -7,7 +7,7 @@ graph_attr = {
     "splines": "spline",
 }
 
-with Diagram("C1 Diagram of Tesla Self-Driving Prediction service", direction="TB", graph_attr=graph_attr, show=False, outformat="pdf", filename="docs/c1"):
+with Diagram("C1 Diagram of Tesla Self-Driving Prediction service", direction="TB", graph_attr=graph_attr, show=False, outformat="png", filename="docs/c1"):
     customer = Person(
         name="Tesla Driver", description="Some lucky person sitting in his/her new tesla motorcar"
     )
