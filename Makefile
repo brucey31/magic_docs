@@ -2,7 +2,6 @@ DOCS_SRC_FILEPATH := ./docs/src/
 
 .PHONY: install
 install: ## install requirements locally
-
 		pip install -r requirements.txt --no-cache
 
 .PHONY: update_docs
