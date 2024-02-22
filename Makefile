@@ -6,6 +6,8 @@ install: ## install requirements locally
 
 .PHONY: update_docs
 update_docs: ## Re-renders the documentation files -= taken from https://stackoverflow.com/questions/5015316/run-all-python-files-in-a-directory
+		echo "Updating documents"
 		make install
 		ls $(DOCS_SRC_FILEPATH)/*.py|xargs -n 1 -P 3 python
+		exit 1
 		
