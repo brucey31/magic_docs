@@ -10,6 +10,10 @@ python = "^3.11"
 diagrams = "^0.23.4"
 pydot = "^2.0.0"
 graphviz = "^0.20.1"
+pydantic = "^2.6.1"
+erdantic = "^0.7.0"
+black = "^24.2.0"
+isort = "^5.13.2"
 
 
 [build-system]
