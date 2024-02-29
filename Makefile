@@ -7,6 +7,7 @@ install: ## install requirements locally
 .PHONY: backend_docs
 backend_docs: # create backend documentation
 		ls ./docs/src/*.py|xargs -n 1 -P 3 python
+		# git add docs/*.png
 
 .PHONY: api_docs
 api_docs: # Generates & shows openai endpoint documentation
@@ -16,6 +17,7 @@ api_docs: # Generates & shows openai endpoint documentation
 frontend_docs: # create frontend documentation
 		cd magic_docs/self-driving-experience
 		npm run build-storybook --prefix magic_docs/self-driving-experience
+		# git add docs/frontend/*
 
 .PHONY: update_docs
 update_docs: ## Re-renders the documentation files -= taken from https://stackoverflow.com/questions/5015316/run-all-python-files-in-a-directory
