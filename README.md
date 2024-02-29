@@ -6,6 +6,7 @@ This repo aims to render documentation on each commit for the following types of
 - AWS systems architecture diagrams
 - Pydantic modelling & ERD diagrams
 - Frontend React component mapping
+- FastAPI web documentation
 - Automated terraform documentation diagram
 
 The idea here is that where possible we create highly visual dynamically updatable diagrams and documentation from within a repo that can then potentially be i-framed into notion for shareability? (I don't know but want to know if this is possible)
